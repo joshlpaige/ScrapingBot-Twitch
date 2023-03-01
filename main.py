@@ -1,6 +1,6 @@
 import argparse
 
-from twitchtube.video import make_video
+from twitchbot.video import make_video
 
 
 parser = argparse.ArgumentParser(description="")

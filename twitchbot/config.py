@@ -43,13 +43,13 @@ RESIZE_CLIPS = True  # Resize clips to fit RESOLUTION (True/False) If any RESIZE
 FILE_NAME = "rendered"  # Name of the rendered video
 ENABLE_INTRO = False  # Enable (True/False)
 RESIZE_INTRO = True  # Resize (True/False) read RESIZE_CLIPS
-INTRO_FILE_PATH = PATH + "/twitchtube/files/intro.mp4"  # Path to video file (str)
+INTRO_FILE_PATH = PATH + "/twitchbot/files/intro.mp4"  # Path to video file (str)
 ENABLE_TRANSITION = True
 RESIZE_TRANSITION = True
-TRANSITION_FILE_PATH = PATH + "/twitchtube/files/transition.mp4"
+TRANSITION_FILE_PATH = PATH + "/twitchbot/files/transition.mp4"
 ENABLE_OUTRO = False
 RESIZE_OUTRO = True
-OUTRO_FILE_PATH = PATH + "/twitchtube/files/outro.mp4"
+OUTRO_FILE_PATH = PATH + "/twitchbot/files/outro.mp4"
 
 
 # other options

@@ -6,7 +6,7 @@ from pathlib import Path
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 from opplast import Upload, __version__ as opplast_version
 
-from twitchtube import __version__ as twitchtube_version
+from twitchbot import __version__ as twitchbot_version
 from .clips import get_clips, download_clips
 from .config import *
 from .exceptions import *
@@ -66,11 +66,11 @@ def make_video(
 
             for project, version in zip(
                 [
-                    "twitchtube",
+                    "twitchbot",
                     "opplast",
                 ],
                 [
-                    twitchtube_version,
+                    twitchbot_version,
                     opplast_version,
                 ],
             ):
