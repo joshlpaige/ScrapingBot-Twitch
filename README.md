@@ -23,26 +23,10 @@ LIMIT = 100  # 1-100
 ...
 ```
 
-You can run the bot from a Python file like [`example.py`](example.py)
-
 ## Installation
-
-Download the repo as ZIP and unzip it somewhere accessible, or use git.
 
 To install all the packages needed, you have to run this command, by being in the same directory as the `requirements.txt` and `main.py` files are.
 
 ```
 pip install -r requirements.txt
-```
-
-Download [geckodriver](https://github.com/mozilla/geckodriver/releases) and add it to PATH. If you are on Windows you can follow [this post](https://softwaretestingboard.com/q2a/2366/how-to-set-geckodriver-into-path-environment-variable).
-
-## Troubleshooting
-
-### Uploading
-
-If you're having issues uploading try to update [opplast](https://github.com/offish/opplast).
-
-```
-pip install --upgrade opplast
 ```
